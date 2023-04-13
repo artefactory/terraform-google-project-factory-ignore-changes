@@ -1,0 +1,3 @@
+## terraform-google-project-factory-ignore-changes
+
+This terraform module is exactly the same as [the official google project-factory module](https://github.com/terraform-google-modules/terraform-google-project-factory). Except that in this module all the resources have the lifecycle policy "ignore_changes = all". To get more information about this policy refer to terraform [lifecycle documentation](https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle#ignore_changes).
